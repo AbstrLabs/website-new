@@ -2,4 +2,4 @@
 
 This is the website for Abstr Labs Limited
 
-If you want to contact us: please email to contace@abstrlabs.com
+If you want to contact us: please email to contact@abstrlabs.com
