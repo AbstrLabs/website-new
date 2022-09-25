@@ -178,7 +178,7 @@
 			<div class="wrapper wrapper-flex">
 				<div class="footer-left">
 					<a href="#"><img src="images/logo.svg" alt="" title="" class="logo-footer" /></a>
-					<p class="footer-p">©2022 All right reserved. </p>
+					<p class="footer-p">© <p id="date"></p> All right reserved. </p>
 				</div><!-- footer-left -->
 
 				<div class="footer-right">
@@ -192,7 +192,11 @@
 				</div><!-- footer-right -->
 			</div><!-- wrapper -->
 		</footer> <!-- #main-footer -->
-		
+	<script>
+		const d = new Date();
+		let year = d.getFullYear();
+		document.getElementById("date").innerHTML = year;
+	</script>	
 	<script src="js/fastclick.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/fixed-responsive-nav.js"></script>
